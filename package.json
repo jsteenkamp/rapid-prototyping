@@ -1,0 +1,34 @@
+{
+  "name": "rapid-prototyping",
+  "version": "1.0.0",
+  "description": "Rapid Prototyping",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "deploy": "now out && now alias $(pbpaste) rapid.jsx.nz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mdx-js/mdx": "^0.14.0",
+    "@zeit/next-mdx": "^1.1.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "create-react-context": "^0.2.2",
+    "express": "^4.16.3",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^6.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3",
+    "styled-system": "^2.3.6",
+    "superbox": "^1.0.6",
+    "system-components": "^2.2.3",
+    "unstated": "^2.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  }
+}
