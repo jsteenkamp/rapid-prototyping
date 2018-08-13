@@ -1,6 +1,6 @@
 import Components from '../components/markdown';
-import Prototype from './prototype.md';
+import Scratch from './scratch.md';
 
-const Index = () => <Prototype components={Components} />;
+const Index = () => <Scratch components={Components} />;
 
 export default Index;

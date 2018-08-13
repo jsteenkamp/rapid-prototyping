@@ -1,7 +1,7 @@
 {
   "name": "rapid-prototyping",
   "version": "1.0.0",
-  "description": "Rapid Prototyping",
+  "description": "Rapid Prototyping with React and MDX",
   "main": "index.js",
   "scripts": {
     "dev": "next",

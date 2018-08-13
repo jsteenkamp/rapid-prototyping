@@ -1,15 +1,9 @@
-import sys from 'system-components';
-
-const Container = sys({
-  m: [3, 5],
-  p: 0,
-  fontSize: 4,
-});
+import Box from 'superbox';
 
 const Layout = props => (
-  <Container>
+  <Box m={6} p={0} fontSize={4}>
     {props.children}
-  </Container>
+  </Box>
 );
 
 export default Layout;

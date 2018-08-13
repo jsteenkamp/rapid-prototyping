@@ -1,5 +1,21 @@
 # Rapid Prototyping
 
+## Getting Started
+
+Install dependencies. You must have Node.js and npm and optionally yarn installed on your system.
+
+`yarn install` or `npm install`
+
+Run the development server which outputs on `http://localhost:3000`
+
+`yarn dev` or `npm run dev`
+
+The output rebuilds automatically as you make changes.
+ 
+Add you markdown text and code in `pages/scratch.md`
+
+## Next.js
+
 [Next.js](https://nextjs.org/) is for building [React](https://reactjs.org/) universal apps, apps with server-side rendering included.
 
 Next is static and server-side application framework for React. It is more flexible and easier to use existing React patterns and libraries. You have to do more things yourself, like specifying resources to pre-fetch and lazy-load. 
@@ -12,7 +28,6 @@ Next is static and server-side application framework for React. It is more flexi
 * [system-components](https://github.com/jxnblk/styled-system/tree/master/system-components) work fine.
 
 ## Resources
-
 
 * [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [MDX](https://github.com/mdx-js/mdx) is a fully-featured MDX parser, loader and JSX renderer.
