@@ -4,7 +4,7 @@ See it running at [https://rapid.jsx.nz/](https://rapid.jsx.nz/)
 
 ## Getting Started
 
-Install dependencies. You must have Node.js and npm and optionally yarn installed on your system.
+Install dependencies. You must have [Node.js](https://nodejs.org/en/) and npm and optionally [yarn](https://yarnpkg.com/en/) installed on your system.
 
 `yarn install` or `npm install`
 
@@ -14,7 +14,7 @@ Run the development server which outputs on `http://localhost:3000`
 
 The output rebuilds automatically as you make changes.
  
-Add you markdown text and code in `pages/scratch.md`
+Add your markdown text and code in `pages/scratch.md`
 
 ## Deployment
 
@@ -28,7 +28,7 @@ I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.ne
 
 ## CSS-in-JS
 
-* [Using styled-components with Next.js](https://jsramblings.com/2017/11/27/using-styled-components-with-next-js.html) shows how to configure babel correctly so you do not get checksum mismatches due to different class generation on the client and on the server. 
+* [Using styled-components with Next.js](https://jsramblings.com/2017/11/27/using-styled-components-with-next-js.html) shows how to configure [babel](https://babeljs.io/) correctly so you do not get checksum mismatches due to different class generation on the client and on the server. 
 * [Theme Provider](https://github.com/zeit/next.js/issues/4170) this works in [Next.js 6](https://zeit.co/blog/next6).
 * [styled-system](https://github.com/jxnblk/styled-system) and 
 * [system-components](https://github.com/jxnblk/styled-system/tree/master/system-components) work fine.
