@@ -20,7 +20,7 @@ Add you markdown text and code in `pages/scratch.md`
 
 Run `yarn build` or `npm run build` to generate static output in the `out` directory. You can upload this directory to your host.
 
-I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.netlify.com/) and [Surge](https://surge.sh/).
+I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.netlify.com/), [GitHub Pages](https://pages.github.com/) and [Surge](https://surge.sh/).
 
 ## Next.js
 
