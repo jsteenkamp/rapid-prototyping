@@ -24,9 +24,7 @@ I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.ne
 
 ## Next.js
 
-[Next.js](https://nextjs.org/) is for building [React](https://reactjs.org/) universal apps, apps with server-side rendering included.
-
-Next is static and server-side application framework for React. It is more flexible and easier to use existing React patterns and libraries. You have to do more things yourself, like specifying resources to pre-fetch and lazy-load. 
+[Next.js](https://nextjs.org/) is static and server-side application framework for [React](https://reactjs.org/).
 
 ## CSS-in-JS
 
