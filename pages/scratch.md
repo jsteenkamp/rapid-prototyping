@@ -1,14 +1,7 @@
+import Link from 'next/link';
 
-# Johan Steenkamp 
+# ScratchPad
 
-- Twitter: [@johanstn](https://twitter.com/johanstn)
-- GitHub: [jsteenkamp](https://github.com/jsteenkamp)
-- LinkedIn: [johansteenkamp](https://www.linkedin.com/in/johansteenkamp/)
+Delete everything in this file located in `pages/scratch.md` and replace with your own MDX.
 
-## My approach to just about everything
-
-- Start with a blank canvas
-- Embrace constraints
-- Take the path that makes future change easier
-- Do the simple thing first
-
+Check out these <Link href='/examples'><a>examples</a></Link> to get started.

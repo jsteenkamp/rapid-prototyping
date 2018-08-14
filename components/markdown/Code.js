@@ -11,9 +11,14 @@ export const InlineCode = sys({
   color: 'cornflowerblue',
 });
 
-export const Pre = sys({
-  is: 'pre',
-  p: 4,
-  color: 'royalblue',
-  bg: 'aliceblue'
-});
+export const Pre = sys(
+  {
+    is: 'pre',
+    p: 4,
+    color: 'royalblue',
+    bg: 'aliceblue',
+  },
+  {
+    overflow: 'hidden',
+  }
+);

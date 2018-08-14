@@ -11,3 +11,7 @@
 - Embrace constraints
 - Take the path that makes future change easier
 - Do the simple thing first
+
+## Components
+
+- Duplication is far cheaper than the wrong abstraction - *Sandi Metz*
