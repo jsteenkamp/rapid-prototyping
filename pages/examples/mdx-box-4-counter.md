@@ -3,14 +3,10 @@ import Counter from '../../components/Counter';
 
 # Stateful Components
 
-Easy with [unstated](https://github.com/jamiebuilds/unstated)
+Easy with [unstated](https://github.com/jamiebuilds/unstated). Where is the `<Provider>`?
 
-<Provider>
-  <Counter />
-</Provider>  
+<Counter />
 
 ```html
-<Provider>
-  <Counter />
-</Provider>  
+<Counter />
 ```
