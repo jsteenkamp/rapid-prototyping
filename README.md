@@ -16,6 +16,12 @@ The output rebuilds automatically as you make changes.
  
 Add you markdown text and code in `pages/scratch.md`
 
+## Deployment
+
+Run `yarn build` or `npm run build` to generate static output in the `out` directory. You can upload this directory to your host.
+
+I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.netlify.com/) and [Surge](https://surge.sh/).
+
 ## Next.js
 
 [Next.js](https://nextjs.org/) is for building [React](https://reactjs.org/) universal apps, apps with server-side rendering included.
@@ -28,12 +34,6 @@ Next is static and server-side application framework for React. It is more flexi
 * [Theme Provider](https://github.com/zeit/next.js/issues/4170) this works in [Next.js 6](https://zeit.co/blog/next6).
 * [styled-system](https://github.com/jxnblk/styled-system) and 
 * [system-components](https://github.com/jxnblk/styled-system/tree/master/system-components) work fine.
-
-## Deployment
-
-Run `yarn build` or `npm run build` to generate static output in the `out` directory. You can upload this directory to your host.
-
-I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.netlify.com/) and [Surge](https://surge.sh/).
 
 ## Resources
 
