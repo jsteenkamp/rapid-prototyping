@@ -13,7 +13,7 @@ export const InlineCode = sys({
 
 export const Pre = sys({
   is: 'pre',
-  color: 'royalblue',
   p: 4,
+  color: 'royalblue',
   bg: 'aliceblue'
 });

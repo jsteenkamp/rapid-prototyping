@@ -24,6 +24,7 @@ export const H1 = props => (
     fontSize={[6, 7]}
     fontWeight={0}
     letterSpacing={-1.5}
+    mb={'.75em'}
     {...props}
   />
 );
@@ -56,6 +57,7 @@ export const H4 = props => (
     fontSize={5}
     fontWeight={1}
     letterSpacing={0.25}
+    mt={'1em'}
     {...props}
   />
 );

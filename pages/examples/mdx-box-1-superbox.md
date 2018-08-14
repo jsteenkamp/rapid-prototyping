@@ -2,23 +2,16 @@ import SuperBox from 'superbox';
 
 # Start with a Box
 
-[SuperBox](https://github.com/jxnblk/superbox) a primitive component for your styles from [Brent Jackson](https://twitter.com/jxnblk).
+[SuperBox](https://github.com/jxnblk/superbox) a primitive component for your styles from [Brent Jackson](https://jxnblk.com/).
 
-<SuperBox
-    fontSize={[4, 8, 10]}
-    m={6}
-    p={4}
-    color='white'
-    bg='cornflowerblue'>
+<SuperBox>
   SuperBox
 </SuperBox>
 
-Our SuperBox code:
-
 ```html
 <SuperBox
-    fontSize={[4, 8, 10]}
-    m={6}
+    fontSize={[0, 8, 12]}
+    my={6}
     p={4}
     color='white'
     bg='cornflowerblue'>

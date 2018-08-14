@@ -3,7 +3,7 @@ import SuperBox from 'superbox';
 export const Box = ({ children, ...rest }) => (
   <SuperBox
     fontSize={[4, 8, 10]}
-    m={6}
+    my={6}
     p={4}
     color="white"
     bg="cornflowerblue"

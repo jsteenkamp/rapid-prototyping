@@ -4,7 +4,7 @@ import Box from '../../components/Box';
 
 A list of boxes made with our Box component:
 
-<Box bg={'white'}>
+<Box m={0} p={0} bg={'white'}>
   <Box>Box 1</Box>
   <Box>Box 2</Box>
   <Box>Box 3</Box>
@@ -12,7 +12,7 @@ A list of boxes made with our Box component:
 
 
 ```html
-<Box bg={'white'}>
+<Box m={0} p={0} bg={'white'}>
   <Box>Box 1</Box>
   <Box>Box 2</Box>
   <Box>Box 3</Box>

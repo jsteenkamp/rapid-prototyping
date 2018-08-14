@@ -3,11 +3,13 @@ import Box from '../../components/Box';
 
 # Make our own Box Component
 
+Duplication is far cheaper than the wrong abstraction
+
 This is SuperBox:
 
 <SuperBox
     fontSize={[4, 8, 10]}
-    m={6}
+    my={6}
     p={4}
     color='white'
     bg='cornflowerblue'>
@@ -24,7 +26,7 @@ This is our Box component:
 ```html
 <SuperBox
     fontSize={[4, 8, 10]}
-    m={6}
+    my={6}
     p={4}
     color='white'
     bg='cornflowerblue'>
