@@ -4,23 +4,25 @@ See it running at [https://rapid.jsx.nz/](https://rapid.jsx.nz/)
 
 ## Getting Started
 
- You must have [Node.js](https://nodejs.org/en/) and npm and optionally [yarn](https://yarnpkg.com/en/) installed on your machine.
+ You must have [Node.js](https://nodejs.org/en/) and npm (installed with Node.js) and optionally [yarn](https://yarnpkg.com/en/) installed on your machine.
  
 Install dependencies:
 
-`yarn install` or `npm install`
+`npm install` or `yarn install`
 
-Run the development server which outputs on `http://localhost:3000`:
+Run the development server:
 
-`yarn dev` or `npm run dev`
+`npm run dev` or `yarn dev`
 
-The output rebuilds automatically as you make changes.
+Point your web browser to `http://localhost:3000`
  
 Add your markdown text and code in `pages/scratch.md`
 
+The output rebuilds and refreshes the browser automatically as you make changes.
+
 ## Deployment
 
-Run `yarn build` or `npm run build` to generate static output in the `out` directory. You can upload this directory to your host.
+Run `npm run build` or `yarn build` to generate static output in the `out` directory. You can upload this directory to your host.
 
 I use [Now](https://zeit.co/now). Other options include [Netlify](https://www.netlify.com/), [GitHub Pages](https://pages.github.com/) and [Surge](https://surge.sh/).
 
